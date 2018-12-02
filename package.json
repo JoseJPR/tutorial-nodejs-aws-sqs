@@ -1,0 +1,10 @@
+{
+  "name": "tutorial-nodejs-aws-sqs",
+  "version": "0.0.1",
+  "author": "José Jesús Pérez Rivas",
+  "dependencies": {
+    "express": "4.15.2",
+    "body-parser": "1.18.3",
+    "aws-sdk": "2.365.0"
+  }
+}
