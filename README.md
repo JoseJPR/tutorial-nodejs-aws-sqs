@@ -36,4 +36,6 @@ https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/using-regions-availabi
 
 ### Contact
 
+Linkedin: https://www.linkedin.com/in/josejpr/ \
+Twitter: https://twitter.com/JoseJ_PR \
 Send email to: jose.perez@sngular.com
