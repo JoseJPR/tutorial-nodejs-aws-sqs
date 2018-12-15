@@ -29,10 +29,10 @@ npm start
 ### Configuration data that you need
 
 How to obtain the ACCESS_KEY and SECRET_KEY?
-https://docs.aws.amazon.com/es_es/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-setting-up.html
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-setting-up.html
 
 Where to get the region? 
-https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
 
 ### More info about SQS JavaScript Library
 
