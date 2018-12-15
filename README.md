@@ -34,6 +34,10 @@ https://docs.aws.amazon.com/es_es/AWSSimpleQueueService/latest/SQSDeveloperGuide
 Where to get the region? 
 https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
 
+### More info about SQS JavaScript Library
+
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html
+
 ### Contact
 
 Linkedin: https://www.linkedin.com/in/josejpr/ \
