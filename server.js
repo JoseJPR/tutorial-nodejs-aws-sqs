@@ -62,7 +62,7 @@ app.post('/connection', function (req, res) {
       res.send({ "status": "ko", "error": "Can´t save configuration into config.json file." });
     });
   } else {
-    res.send({ "status": "ko", "error": "Queue Name is required." });
+    res.send({ "status": "ko", "error": "AWS access, secret and region fields required." });
   }
 });
 
