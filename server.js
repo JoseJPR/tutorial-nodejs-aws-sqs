@@ -84,7 +84,7 @@ app.post('/queue/create', function (req, res) {
       res.send({ "status": "ko", "error": "Queue Name is required." });
     }
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." });
+    res.send({ "status": "ko", "error": "AWS connection is required." });
   }
 });
 
@@ -106,7 +106,7 @@ app.post('/queue/delete', function (req, res) {
       res.send({ "status": "ko", "error": "Queue Url is required." });
     }
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." });
+    res.send({ "status": "ko", "error": "AWS connection is required." });
   }
 });
 
@@ -122,7 +122,7 @@ app.get('/queue/list', function (req, res) {
       }
     });
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." });
+    res.send({ "status": "ko", "error": "AWS connection is required." });
   }
 });
 
@@ -140,7 +140,7 @@ app.get('/queue/purge', function (req, res) {
       }
     });
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." })
+    res.send({ "status": "ko", "error": "AWS connection is required." })
   }
 });
 
@@ -160,7 +160,7 @@ app.post('/message/send', function (req, res) {
       }
     });
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." })
+    res.send({ "status": "ko", "error": "AWS connection is required." })
   }
 });
 
@@ -179,7 +179,7 @@ app.post('/message/receive', function (req, res) {
       }
     });
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." })
+    res.send({ "status": "ko", "error": "AWS connection is required." })
   }
 });
 
@@ -198,7 +198,7 @@ app.post('/message/delete', function (req, res) {
       }
     });
   } else {
-    res.send({ "status": "ko", "error": "SQS connection is required." })
+    res.send({ "status": "ko", "error": "AWS connection is required." })
   }
 });
 
